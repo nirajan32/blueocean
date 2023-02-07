@@ -17,7 +17,7 @@ pipeline {
 
         stage('frontend Unit-test') {
           steps {
-            sh 'cd node1 && npm i && run test:unit'
+            sh 'cd blueocean_main && npm i && run test:unit'
           }
         }
 
